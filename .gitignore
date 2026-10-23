@@ -1,0 +1,29 @@
+# --- Generated / derived data ---
+db/hr.db
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
